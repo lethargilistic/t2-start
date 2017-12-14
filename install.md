@@ -59,7 +59,7 @@ Then, install the Tessel 2 command line interface:
 
 `npm install -g t2-cli`
 
-*Note: If you get the common npm EACCES error, correct it by [fixing npm permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions) and then running `npm install -g t2-cli` again. Using sudo is not recommended. Here is a handy [shell script](https://github.com/glenpike/npm-g_nosudo#npm-g_nosudo) to fix permissions issues.*
+*Note: If you get the common npm EACCES error, correct it by [fixing npm permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions) and then running `npm install -g t2-cli` again. Using sudo is not recommended [because it leads to vulnerabilities or broken installations](https://givan.se/do-not-sudo-npm/#why-not-). Here is a handy [shell script](https://github.com/glenpike/npm-g_nosudo#npm-g_nosudo) to fix permissions issues.*
 
 Finally, you will need to install Tessel USB rules:
 
