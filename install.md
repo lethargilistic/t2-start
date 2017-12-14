@@ -53,7 +53,7 @@ Once Node.js is installed, run this installation script from your terminal:
 
 Once Node is installed, install USB dependencies:
 
-`apt-get install libusb-1.0-0-dev libudev-dev`
+`sudo apt-get install libusb-1.0-0-dev libudev-dev`
 
 Then, install the Tessel 2 command line interface:
 
